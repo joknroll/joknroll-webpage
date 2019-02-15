@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@font-face { font-family: GeosansLight; src: url('GeosansLight.ttf'); }
+body, html {
+  height: 100%;
+  margin: 0;
+  
+  font-family: GeosansLight;
+  font-size: 400;
+  color: #777;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("IMG_20180726_191616.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="parallax">
+  <div class="caption">
+  <span class="border"> joknroll</span>
+  </div>
+</div>
+
+<div style="height:500px;background-color:#71717199;font-size:36px">
+
+	<div class="center" id="player">
+		<iframe style="border: 0; width: 100%; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=2938237643/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://joknroll.bandcamp.com/album/2018">2018 by joknroll</a></iframe>
+	</div>
+</div>
+
+</body>
+</html>
